@@ -26,15 +26,12 @@ JOBS = [
     'location' : 'Nairobi, Kenya',
     
     },
-
-
-
 ]
 
 
 @app.route('/')
 def home():
-    return render_template("home.html",jobs =JOBS )
+    return render_template("home.html",jobs =JOBS,company_name = ' LocalJobs')
 
 @app.route('/jobs')
 def list_jobs():
