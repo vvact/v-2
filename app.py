@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     jobs = load_jobs_from_db()
-    return render_template("home.html",jobs =jobs,company_name = ' LocalJobs')
+    return render_template("home.html",jobs =jobs, company_name = 'LocalJobs')
 
 @app.route('/jobs')
 def list_jobs():
