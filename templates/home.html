@@ -51,7 +51,6 @@
   </head>
 
   <body>
-   
     {% include 'nav.html' %}
     <h1>Local Jobs</h1>
     <img class="img-fluid" id="banner" src="static/victor.jpg" height="320px" />
@@ -59,13 +58,13 @@
       <h2>About Local jobs</h2>
 
       <p class="lead margin-bottom 20px">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Welcome to Local Jobs, where we aim to revolutionize the job search
+        experience for both employers and job seekers. Our platform is designed
+        with a commitment to bridging the gap between talent and opportunity,
+        providing a seamless and efficient space for connecting qualified
+        candidates with exciting job opportunities. As the architects of this
+        dynamic job ecosystem, we believe in the power of innovation,
+        transparency, and empowerment in the job market.
       </p>
       <h2 style="margin-top: 20px; margin-bottom: 30px">Job Openings</h2>
       <div>{% for job in jobs %} {% include 'jobs.html' %} {% endfor %}</div>
